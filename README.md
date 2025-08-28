@@ -6,10 +6,11 @@ Includes a demo web page (`web/`) for local testing.
 ## Installation
 ```bash
 apt update && apt upgrade -y
-pkg install git 
-pkg install python2
+pkg install git -y
+pkg install python -y
 
 git clone https://github.com/master-pd/MASTER-ui.git
-
-cd ua-tool
+cd MASTER-ui
 bash install.sh
+
+ua-tool
