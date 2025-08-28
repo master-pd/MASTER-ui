@@ -9,7 +9,7 @@ apt update && apt upgrade -y
 pkg install git 
 pkg install python2
 
-git clone ........
+git clone https://github.com/master-pd/MASTER-ui.git
 
 cd ua-tool
 bash install.sh
